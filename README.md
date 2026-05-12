@@ -33,8 +33,6 @@ This allows any changes made to the file on the host machine to be reflected imm
 ---
 
 ## 🚀 Run Instructions
-
-### ▶️ Start the container
 🌐 Access the Web Server
 
 After running the container, open your browser and visit:
@@ -82,6 +80,6 @@ Image list (docker images)
 
 Abdelaziz Hassan
 DevOps Internship - CodeAlpha
-
+### ▶️ Start the container
 ```bash
 docker run -d -p 8080:80 --name webserver -v "C:\Users\user\Downloads\CodeAlpha_WebServer_Docker\test.html:/usr/share/nginx/html/index.html" nginx
