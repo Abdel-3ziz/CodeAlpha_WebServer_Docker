@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hello Abdelaziz</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background:linear-gradient(135deg, #0f172a, #1e293b, #334155);
+      overflow:hidden;
+      font-family:Arial, sans-serif;
+    }
+
+    h1{
+      font-size:60px;
+      color:white;
+      text-shadow:0 0 10px #38bdf8,
+                  0 0 20px #38bdf8,
+                  0 0 40px #0ea5e9;
+      animation: glow 2s infinite alternate,
+                 float 3s ease-in-out infinite;
+    }
+
+    @keyframes glow{
+      from{
+        text-shadow:0 0 10px #38bdf8,
+                    0 0 20px #38bdf8;
+      }
+
+      to{
+        text-shadow:0 0 20px #67e8f9,
+                    0 0 40px #0ea5e9,
+                    0 0 60px #0284c7;
+      }
+    }
+
+    @keyframes float{
+      0%{
+        transform:translateY(0);
+      }
+
+      50%{
+        transform:translateY(-10px);
+      }
+
+      100%{
+        transform:translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Hello Abdelaziz ✨</h1>
+</body>
+</html>
